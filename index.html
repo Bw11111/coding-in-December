@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<script src="script.js"></script>
+<html onload="loadd()">
+  <head>
+    <div id="all" onload="loadd()">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Bitcoin Clicker</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" href="btc.png" />
+      </head>
+
+      <h2 onclick="opensettings()" id="gear" hidden>&#9881;</h2>
+  <div id="settings">
+    <h2>Codes</h2>
+    <input id="code" placeholder="enter code" autocapitalize="false">
+    <button onclick="checkcode()">Submit</button>
+    <br>
+    <br>
+    <button onclick="resetdata()">Reset Data</button>
+  </div>
+  <img src="shop.png" width="75" height="50" onclick="openshop()" id="shoppng" hidden>
+  <div id="shop" hidden>
+    <button onclick="buyboost1()">Buy 2x Boost (60 Seconds) 400 btc</button>
+    </div>
+  <body>
+    <div id="minigame1" hidden>
+      <button onclick="startmini1()">Start</button>
+      </div>
+    <center>
+      <h1 id="loaddd">Game Now Loading...</h1>
+    <progress id="prgs"></progress>
+      <h1 id="wlcom">Get Ready To Play!</h1>
+    </center>
+      
+    <div id="clicker" hidden>
+     
+    <center>
+    
+      <h1>You have:
+      <h1 id="btcdisp">0</h1>
+      <h1>Bitcoin</h1>
+           <br>
+      
+      
+       
+     
+     
+       
+    
+      <br>
+      <img src="save.png" width="50" height="50" onclick="load()" hidden>
+    <img src="btc.png" width="200" height="200" onclick="addclicks()">
+    <img src="bitcoin.png" width="50" height="50" onclick="autocheck()" id="autor">
+    <img src="Arrow.png" width="50" height="50" onclick="rebirth()">
+    </center>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js"></script>
+
+  </body>
+</div>
+</html>
