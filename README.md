@@ -1,2 +1,3 @@
 # coding-in-December
-it wanted me to add this
+my current source code for bitcoin clicker, DO NOT copy it  :)
+
